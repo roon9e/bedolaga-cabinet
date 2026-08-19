@@ -59,5 +59,6 @@ export function resolveSupportContact(config: SupportConfig): SupportContactTarg
   // только из настоящего юзернейма — всё URL-образное отдаём резолвить бэку.
   if (!/^[A-Za-z0-9_]{3,}$/.test(username)) return null;
 
-  return { kind: 'telegram', url: `https://t.me/${username}` };
+  const telegramBaseDomain = import.meta.env.VITE_TELEGRAM_BASE_URL || 't.me';
+  return { kind: 'telegram', url: `https://${telegramBaseDomain}/${username}` };
 }

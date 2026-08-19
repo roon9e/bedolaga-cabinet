@@ -218,13 +218,15 @@ apiClient.interceptors.response.use(
     // one-off blip doesn't blank an already-loaded app) and, if confirmed, flip
     // the full-screen ServiceUnavailableScreen. Fire-and-forget — the original
     // request still rejects now. Axios cancellations are not outages.
-    if (!error.response && error.code !== 'ERR_CANCELED') {
+    if (!error.response) {
+      if (error.code !== 'ERR_CANCELED') {
       void reportPossibleBackendDown();
-      return Promise.reject(error);
+    }
+    return Promise.reject(error);
     }
 
     if (isMaintenanceError(error)) {
-      const detail = (error.response?.data as { detail: MaintenanceError }).detail;
+      const detail = (error.response.data as { detail: MaintenanceError }).detail;
       useBlockingStore.getState().setMaintenance({
         message: detail.message,
         reason: detail.reason,
@@ -233,7 +235,7 @@ apiClient.interceptors.response.use(
     }
 
     if (isChannelSubscriptionError(error)) {
-      const detail = (error.response?.data as { detail: ChannelSubscriptionError }).detail;
+      const detail = (error.response.data as { detail: ChannelSubscriptionError }).detail;
       useBlockingStore.getState().setChannelSubscription({
         message: detail.message,
         channel_link: detail.channel_link,
@@ -243,7 +245,7 @@ apiClient.interceptors.response.use(
     }
 
     if (isBlacklistedError(error)) {
-      const detail = (error.response?.data as { detail: BlacklistedError }).detail;
+      const detail = (error.response.data as { detail: BlacklistedError }).detail;
       useBlockingStore.getState().setBlacklisted({
         message: detail.message,
       });
@@ -251,7 +253,7 @@ apiClient.interceptors.response.use(
     }
 
     if (isAccountDeletedError(error)) {
-      const detail = (error.response?.data as { detail: AccountDeletedError }).detail;
+      const detail = (error.response.data as { detail: AccountDeletedError }).detail;
       // Surface the deleted-account screen. The auth flow (initData login)
       // is allowed to auto-revive; this branch is for token-bearing
       // sessions where the user is already in the cabinet but their row

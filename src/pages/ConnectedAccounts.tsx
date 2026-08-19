@@ -135,9 +135,10 @@ function TelegramLinkWidget() {
     }, LINK_SCRIPT_LOAD_TIMEOUT_MS);
 
     if (!script) {
+      const telegramOauthDomain = import.meta.env.VITE_TELEGRAM_OAUTH_URL || 'oauth.telegram.org';
       script = document.createElement('script');
       script.id = scriptId;
-      script.src = 'https://oauth.telegram.org/js/telegram-login.js?3';
+      script.src = `https://${telegramOauthDomain}/js/telegram-login.js?3`;
       script.async = true;
       script.onload = () => {
         clearTimeout(timeoutId);
@@ -204,7 +205,8 @@ function TelegramLinkWidget() {
     };
 
     const script = document.createElement('script');
-    script.src = 'https://telegram.org/js/telegram-widget.js?23';
+    const telegramScriptDomain = import.meta.env.VITE_TELEGRAM_SCRIPT_URL || 'telegram.org';
+    script.src = `https://${telegramScriptDomain}/js/telegram-widget.js?2`;
     script.setAttribute('data-telegram-login', botUsername);
     script.setAttribute('data-size', 'small');
     script.setAttribute('data-radius', '8');
@@ -240,13 +242,14 @@ function TelegramLinkWidget() {
 
   // Script failed to load - show unavailable message with bot link
   if (scriptFailed) {
+    const telegramBaseDomain = import.meta.env.VITE_TELEGRAM_BASE_URL || 't.me';
     return (
       <div className="flex max-w-[200px] flex-col items-center gap-1.5">
         <p className="break-words text-center text-xs text-dark-400">
           {t('profile.accounts.telegramLinkUnavailable')}
         </p>
         <a
-          href={`https://t.me/${botUsername}`}
+          href={`https://${telegramBaseDomain}/${botUsername}`}
           target="_blank"
           rel="noopener noreferrer"
           className="break-all text-sm text-accent-400 transition-colors hover:text-accent-300"
