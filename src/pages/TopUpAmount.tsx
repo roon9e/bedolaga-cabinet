@@ -255,8 +255,8 @@ export default function TopUpAmount() {
         // URL в нестандартном регистре. Также покрываем tg:// scheme на всякий случай.
         const lowerUrl = redirectUrl.toLowerCase();
         const isTelegramDeepLink =
-          lowerUrl.startsWith(`https://${telegramBaseUrl}/`) ||
-          lowerUrl.startsWith(`http://${telegramBaseUrl}/`) ||
+          lowerUrl.startsWith(`https://${telegramBaseDomain}/`) ||
+          lowerUrl.startsWith(`http://${telegramBaseDomain}/`) ||
           lowerUrl.startsWith(`${telegramProtocol}://`);
         if (method?.open_url_direct && !isTelegramDeepLink) {
           // In the Telegram WebView, same-container navigation to the provider page breaks

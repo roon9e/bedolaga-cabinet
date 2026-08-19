@@ -40,9 +40,11 @@ installEncodingSurrogateGuard();
 // @telegram-apps/sdk v3 depends on valibot which uses Object.hasOwn internally.
 // Without this, init() throws LaunchParamsRetrieveError on affected devices.
 // See: https://github.com/Telegram-Mini-Apps/tma.js/issues/683
-if (typeof (Object as { hasOwn?: unknown }).hasOwn !== 'function') {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  (Object as any).hasOwn = (obj: object, prop: PropertyKey): boolean => Object.hasOwn(obj, prop);
+const objectCtor = Object as typeof Object & {
+  hasOwn?: (obj: object, prop: PropertyKey) => boolean;
+};
+if (typeof objectCtor.hasOwn !== 'function') {
+  objectCtor.hasOwn = (obj: object, prop: PropertyKey): boolean => Object.hasOwn(obj, prop);
 }
 
 // Only initialize Telegram SDK when running inside Telegram
