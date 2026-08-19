@@ -1,0 +1,3562 @@
+{
+  "summary": {
+    "changed": 0,
+    "unchanged": 521,
+    "matches": 0,
+    "duration": 4414725500,
+    "errors": 1,
+    "warnings": 201,
+    "infos": 84,
+    "skipped": 0,
+    "suggestedFixesSkipped": 0,
+    "diagnosticsNotPrinted": 0,
+    "scannerDuration": 4976600
+  },
+  "diagnostics": [
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\components\\connection\\InstallationGuide.tsx",
+        "start": { "line": 75, "column": 47 },
+        "end": { "line": 75, "column": 51 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\components\\connection\\InstallationGuide.tsx",
+        "start": { "line": 75, "column": 33 },
+        "end": { "line": 75, "column": 37 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "This fragment is unnecessary.",
+      "category": "lint/complexity/noUselessFragments",
+      "location": {
+        "path": "src\\components\\dashboard\\SubscriptionCardExpired.tsx",
+        "start": { "line": 260, "column": 15 },
+        "end": { "line": 300, "column": 18 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Template literals are preferred over string concatenation.",
+      "category": "lint/style/useTemplate",
+      "location": {
+        "path": "src\\components\\sales-stats\\DualAreaChart.tsx",
+        "start": { "line": 47, "column": 25 },
+        "end": { "line": 47, "column": 48 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Template literals are preferred over string concatenation.",
+      "category": "lint/style/useTemplate",
+      "location": {
+        "path": "src\\components\\sales-stats\\MultiSeriesAreaChart.tsx",
+        "start": { "line": 54, "column": 25 },
+        "end": { "line": 54, "column": 43 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Template literals are preferred over string concatenation.",
+      "category": "lint/style/useTemplate",
+      "location": {
+        "path": "src\\components\\sales-stats\\SimpleAreaChart.tsx",
+        "start": { "line": 41, "column": 25 },
+        "end": { "line": 41, "column": 48 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Template literals are preferred over string concatenation.",
+      "category": "lint/style/useTemplate",
+      "location": {
+        "path": "src\\components\\sales-stats\\StackedBarChart.tsx",
+        "start": { "line": 55, "column": 25 },
+        "end": { "line": 55, "column": 43 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Template literals are preferred over string concatenation.",
+      "category": "lint/style/useTemplate",
+      "location": {
+        "path": "src\\components\\stats\\DailyChart.tsx",
+        "start": { "line": 45, "column": 25 },
+        "end": { "line": 45, "column": 48 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\components\\subscription\\purchase\\TariffPurchaseForm.tsx",
+        "start": { "line": 423, "column": 56 },
+        "end": { "line": 423, "column": 80 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\components\\subscription\\purchase\\TariffPurchaseForm.tsx",
+        "start": { "line": 437, "column": 33 },
+        "end": { "line": 437, "column": 57 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\components\\subscription\\purchase\\TariffPurchaseForm.tsx",
+        "start": { "line": 533, "column": 61 },
+        "end": { "line": 533, "column": 85 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\components\\subscription\\purchase\\TariffPurchaseForm.tsx",
+        "start": { "line": 548, "column": 35 },
+        "end": { "line": 548, "column": 59 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "This fragment is unnecessary.",
+      "category": "lint/complexity/noUselessFragments",
+      "location": {
+        "path": "src\\components\\subscription\\purchase\\TariffPurchaseForm.tsx",
+        "start": { "line": 622, "column": 27 },
+        "end": { "line": 665, "column": 30 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Template literals are preferred over string concatenation.",
+      "category": "lint/style/useTemplate",
+      "location": {
+        "path": "src\\components\\subscription\\sheets\\TrafficTopupSheet.tsx",
+        "start": { "line": 138, "column": 23 },
+        "end": { "line": 138, "column": 76 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Useless case clause.",
+      "category": "lint/complexity/noUselessSwitchCase",
+      "location": {
+        "path": "src\\components\\ui\\Skeleton.tsx",
+        "start": { "line": 116, "column": 7 },
+        "end": { "line": 116, "column": 20 }
+      },
+      "advices": [
+        {
+          "start": { "line": 117, "column": 7 },
+          "end": { "line": 124, "column": 11 },
+          "text": "Unsafe fix: Remove the useless case."
+        }
+      ]
+    },
+    {
+      "severity": "info",
+      "message": "Template literals are preferred over string concatenation.",
+      "category": "lint/style/useTemplate",
+      "location": {
+        "path": "src\\components\\ui\\hover-border-gradient.tsx",
+        "start": { "line": 37, "column": 32 },
+        "end": { "line": 37, "column": 50 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\AdminBroadcastCreate.tsx",
+        "start": { "line": 178, "column": 14 },
+        "end": { "line": 178, "column": 22 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminCampaignCreate.tsx",
+        "start": { "line": 124, "column": 52 },
+        "end": { "line": 124, "column": 76 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminCampaignEdit.tsx",
+        "start": { "line": 162, "column": 52 },
+        "end": { "line": 162, "column": 76 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminCampaignEdit.tsx",
+        "start": { "line": 183, "column": 22 },
+        "end": { "line": 183, "column": 41 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminCampaignEdit.tsx",
+        "start": { "line": 124, "column": 52 },
+        "end": { "line": 124, "column": 76 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Template literals are preferred over string concatenation.",
+      "category": "lint/style/useTemplate",
+      "location": {
+        "path": "src\\pages\\AdminCouponCreate.tsx",
+        "start": { "line": 14, "column": 26 },
+        "end": { "line": 14, "column": 55 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Template literals are preferred over string concatenation.",
+      "category": "lint/style/useTemplate",
+      "location": {
+        "path": "src\\pages\\AdminCouponDetail.tsx",
+        "start": { "line": 105, "column": 28 },
+        "end": { "line": 105, "column": 57 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\AdminEmailTemplates.tsx",
+        "start": { "line": 43, "column": 63 },
+        "end": { "line": 43, "column": 67 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\AdminEmailTemplates.tsx",
+        "start": { "line": 44, "column": 81 },
+        "end": { "line": 44, "column": 85 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\AdminEmailTemplates.tsx",
+        "start": { "line": 240, "column": 61 },
+        "end": { "line": 240, "column": 65 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\AdminEmailTemplates.tsx",
+        "start": { "line": 256, "column": 72 },
+        "end": { "line": 256, "column": 76 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\AdminInfoPageEditor.tsx",
+        "start": { "line": 887, "column": 79 },
+        "end": { "line": 887, "column": 83 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\AdminInfoPageEditor.tsx",
+        "start": { "line": 897, "column": 39 },
+        "end": { "line": 897, "column": 43 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\AdminInfoPageEditor.tsx",
+        "start": { "line": 898, "column": 35 },
+        "end": { "line": 898, "column": 39 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\AdminInfoPages.tsx",
+        "start": { "line": 32, "column": 58 },
+        "end": { "line": 32, "column": 62 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\AdminInfoPages.tsx",
+        "start": { "line": 32, "column": 78 },
+        "end": { "line": 32, "column": 82 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminPartnerSettings.tsx",
+        "start": { "line": 219, "column": 29 },
+        "end": { "line": 219, "column": 42 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminPartnerSettings.tsx",
+        "start": { "line": 243, "column": 29 },
+        "end": { "line": 243, "column": 42 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "This fragment is unnecessary.",
+      "category": "lint/complexity/noUselessFragments",
+      "location": {
+        "path": "src\\pages\\AdminPartners.tsx",
+        "start": { "line": 127, "column": 9 },
+        "end": { "line": 176, "column": 12 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "This fragment is unnecessary.",
+      "category": "lint/complexity/noUselessFragments",
+      "location": {
+        "path": "src\\pages\\AdminPartners.tsx",
+        "start": { "line": 181, "column": 9 },
+        "end": { "line": 258, "column": 12 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminPromoGroupCreate.tsx",
+        "start": { "line": 58, "column": 19 },
+        "end": { "line": 58, "column": 33 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminPromoGroupCreate.tsx",
+        "start": { "line": 198, "column": 63 },
+        "end": { "line": 198, "column": 76 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminPromoGroupCreate.tsx",
+        "start": { "line": 219, "column": 64 },
+        "end": { "line": 219, "column": 77 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminPromoGroupCreate.tsx",
+        "start": { "line": 240, "column": 63 },
+        "end": { "line": 240, "column": 76 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminPromoGroupCreate.tsx",
+        "start": { "line": 283, "column": 35 },
+        "end": { "line": 283, "column": 48 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminPromoGroupCreate.tsx",
+        "start": { "line": 297, "column": 35 },
+        "end": { "line": 297, "column": 48 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminPromoOfferSend.tsx",
+        "start": { "line": 187, "column": 18 },
+        "end": { "line": 187, "column": 34 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "This fragment is unnecessary.",
+      "category": "lint/complexity/noUselessFragments",
+      "location": {
+        "path": "src\\pages\\AdminPromoOffers.tsx",
+        "start": { "line": 132, "column": 9 },
+        "end": { "line": 230, "column": 12 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "This fragment is unnecessary.",
+      "category": "lint/complexity/noUselessFragments",
+      "location": {
+        "path": "src\\pages\\AdminPromoOffers.tsx",
+        "start": { "line": 235, "column": 9 },
+        "end": { "line": 281, "column": 12 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminPromocodeCreate.tsx",
+        "start": { "line": 393, "column": 61 },
+        "end": { "line": 393, "column": 85 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminPromocodeCreate.tsx",
+        "start": { "line": 432, "column": 65 },
+        "end": { "line": 432, "column": 89 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminPromocodeCreate.tsx",
+        "start": { "line": 497, "column": 55 },
+        "end": { "line": 497, "column": 68 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Template literals are preferred over string concatenation.",
+      "category": "lint/style/useTemplate",
+      "location": {
+        "path": "src\\pages\\AdminRemnawave.tsx",
+        "start": { "line": 64, "column": 10 },
+        "end": { "line": 64, "column": 66 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminServerEdit.tsx",
+        "start": { "line": 18, "column": 20 },
+        "end": { "line": 18, "column": 39 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminServerEdit.tsx",
+        "start": { "line": 241, "column": 60 },
+        "end": { "line": 241, "column": 84 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminTicketSettings.tsx",
+        "start": { "line": 243, "column": 29 },
+        "end": { "line": 243, "column": 42 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminTicketSettings.tsx",
+        "start": { "line": 300, "column": 29 },
+        "end": { "line": 300, "column": 42 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminTicketSettings.tsx",
+        "start": { "line": 270, "column": 29 },
+        "end": { "line": 270, "column": 42 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Template literals are preferred over string concatenation.",
+      "category": "lint/style/useTemplate",
+      "location": {
+        "path": "src\\pages\\AdminWheel.tsx",
+        "start": { "line": 119, "column": 37 },
+        "end": { "line": 119, "column": 55 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminWheel.tsx",
+        "start": { "line": 503, "column": 35 },
+        "end": { "line": 503, "column": 48 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminWheel.tsx",
+        "start": { "line": 545, "column": 35 },
+        "end": { "line": 545, "column": 48 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminWheel.tsx",
+        "start": { "line": 593, "column": 54 },
+        "end": { "line": 593, "column": 78 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminWheel.tsx",
+        "start": { "line": 620, "column": 33 },
+        "end": { "line": 620, "column": 46 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminWheel.tsx",
+        "start": { "line": 646, "column": 33 },
+        "end": { "line": 646, "column": 46 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminWheel.tsx",
+        "start": { "line": 696, "column": 77 },
+        "end": { "line": 696, "column": 90 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminWheel.tsx",
+        "start": { "line": 1067, "column": 29 },
+        "end": { "line": 1067, "column": 42 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminWheel.tsx",
+        "start": { "line": 1087, "column": 27 },
+        "end": { "line": 1087, "column": 40 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminWheel.tsx",
+        "start": { "line": 1177, "column": 52 },
+        "end": { "line": 1177, "column": 76 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Missing radix parameter",
+      "category": "lint/correctness/useParseIntRadix",
+      "location": {
+        "path": "src\\pages\\AdminWheel.tsx",
+        "start": { "line": 1195, "column": 52 },
+        "end": { "line": 1195, "column": 76 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\Info.tsx",
+        "start": { "line": 368, "column": 65 },
+        "end": { "line": 368, "column": 69 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\Info.tsx",
+        "start": { "line": 294, "column": 52 },
+        "end": { "line": 294, "column": 56 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\Info.tsx",
+        "start": { "line": 294, "column": 78 },
+        "end": { "line": 294, "column": 82 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\Info.tsx",
+        "start": { "line": 307, "column": 52 },
+        "end": { "line": 307, "column": 56 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\Info.tsx",
+        "start": { "line": 307, "column": 78 },
+        "end": { "line": 307, "column": 82 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\Info.tsx",
+        "start": { "line": 368, "column": 48 },
+        "end": { "line": 368, "column": 52 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\InfoPageView.tsx",
+        "start": { "line": 319, "column": 45 },
+        "end": { "line": 319, "column": 49 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\InfoPageView.tsx",
+        "start": { "line": 319, "column": 65 },
+        "end": { "line": 319, "column": 69 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\InfoPageView.tsx",
+        "start": { "line": 327, "column": 54 },
+        "end": { "line": 327, "column": 58 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\InfoPageView.tsx",
+        "start": { "line": 327, "column": 76 },
+        "end": { "line": 327, "column": 80 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\InfoPageView.tsx",
+        "start": { "line": 339, "column": 61 },
+        "end": { "line": 339, "column": 65 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "The computed expression can be simplified without the use of a string literal.",
+      "category": "lint/complexity/useLiteralKeys",
+      "location": {
+        "path": "src\\pages\\InfoPageView.tsx",
+        "start": { "line": 339, "column": 83 },
+        "end": { "line": 339, "column": 87 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Template literals are preferred over string concatenation.",
+      "category": "lint/style/useTemplate",
+      "location": {
+        "path": "src\\pages\\Subscription.tsx",
+        "start": { "line": 1627, "column": 19 },
+        "end": { "line": 1627, "column": 58 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Template literals are preferred over string concatenation.",
+      "category": "lint/style/useTemplate",
+      "location": {
+        "path": "src\\utils\\colorConversion.ts",
+        "start": { "line": 15, "column": 11 },
+        "end": { "line": 15, "column": 68 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Template literals are preferred over string concatenation.",
+      "category": "lint/style/useTemplate",
+      "location": {
+        "path": "src\\utils\\colorConversion.ts",
+        "start": { "line": 29, "column": 35 },
+        "end": { "line": 29, "column": 44 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Template literals are preferred over string concatenation.",
+      "category": "lint/style/useTemplate",
+      "location": {
+        "path": "src\\utils\\colorConversion.ts",
+        "start": { "line": 96, "column": 11 },
+        "end": { "line": 96, "column": 20 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Template literals are preferred over string concatenation.",
+      "category": "lint/style/useTemplate",
+      "location": {
+        "path": "src\\utils\\colorConversion.ts",
+        "start": { "line": 99, "column": 11 },
+        "end": { "line": 99, "column": 68 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "Template literals are preferred over string concatenation.",
+      "category": "lint/style/useTemplate",
+      "location": {
+        "path": "src\\utils\\navigation.ts",
+        "start": { "line": 37, "column": 26 },
+        "end": { "line": 37, "column": 48 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "info",
+      "message": "A Node.js builtin module should be imported with the node: protocol.",
+      "category": "lint/style/useNodejsImportProtocol",
+      "location": {
+        "path": "vite.config.ts",
+        "start": { "line": 3, "column": 18 },
+        "end": { "line": 3, "column": 24 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This var should be declared at the root of the enclosing function.",
+      "category": "lint/correctness/noInnerDeclarations",
+      "location": {
+        "path": "index.html",
+        "start": { "line": 41, "column": 11 },
+        "end": { "line": 41, "column": 51 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Direct assigning to document.cookie is not recommended.",
+      "category": "lint/suspicious/noDocumentCookie",
+      "location": {
+        "path": "src\\api\\client.ts",
+        "start": { "line": 36, "column": 5 },
+        "end": { "line": 36, "column": 86 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Unexpected any. Specify a different type.",
+      "category": "lint/suspicious/noExplicitAny",
+      "location": {
+        "path": "src\\api\\contests.ts",
+        "start": { "line": 18, "column": 29 },
+        "end": { "line": 18, "column": 32 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Unexpected any. Specify a different type.",
+      "category": "lint/suspicious/noExplicitAny",
+      "location": {
+        "path": "src\\api\\promo.ts",
+        "start": { "line": 14, "column": 30 },
+        "end": { "line": 14, "column": 33 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Unexpected any. Specify a different type.",
+      "category": "lint/suspicious/noExplicitAny",
+      "location": {
+        "path": "src\\api\\promoOffers.ts",
+        "start": { "line": 36, "column": 30 },
+        "end": { "line": 36, "column": 33 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This variable implicitly has the any type.",
+      "category": "lint/suspicious/noImplicitAnyLet",
+      "location": {
+        "path": "src\\components\\ColorPicker.tsx",
+        "start": { "line": 62, "column": 7 },
+        "end": { "line": 62, "column": 8 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on steps.length.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\components\\Onboarding.tsx",
+        "start": { "line": 54, "column": 3 },
+        "end": { "line": 54, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 58, "column": 40 },
+          "end": { "line": 58, "column": 52 },
+          "text": "This dependency is being used here, but is not specified in the hook dependency list."
+        },
+        {
+          "start": { "line": 83, "column": 53 },
+          "end": { "line": 83, "column": 65 },
+          "text": "Unsafe fix: Add the missing dependency steps.length to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on currentStep.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\components\\Onboarding.tsx",
+        "start": { "line": 54, "column": 3 },
+        "end": { "line": 54, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 58, "column": 24 },
+          "end": { "line": 58, "column": 35 },
+          "text": "Unsafe fix: Add the missing dependency currentStep to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "Change to an optional chain.",
+      "category": "lint/complexity/useOptionalChain",
+      "location": {
+        "path": "src\\components\\PromoOffersSection.tsx",
+        "start": { "line": 193, "column": 6 },
+        "end": { "line": 193, "column": 50 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Change to an optional chain.",
+      "category": "lint/complexity/useOptionalChain",
+      "location": {
+        "path": "src\\components\\PromoOffersSection.tsx",
+        "start": { "line": 201, "column": 8 },
+        "end": { "line": 201, "column": 50 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This callback passed to forEach() iterable method should not return a value.",
+      "category": "lint/suspicious/useIterableCallbackReturn",
+      "location": {
+        "path": "src\\components\\Toast.tsx",
+        "start": { "line": 91, "column": 14 },
+        "end": { "line": 91, "column": 21 }
+      },
+      "advices": [
+        {
+          "start": { "line": 91, "column": 33 },
+          "end": { "line": 91, "column": 52 },
+          "text": "Either remove this return or remove the returned value."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: value.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\components\\admin\\SettingInput.tsx",
+        "start": { "line": 49, "column": 3 },
+        "end": { "line": 49, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 54, "column": 7 },
+          "end": { "line": 54, "column": 12 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: activeSection.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\components\\admin\\SettingsMobileTabs.tsx",
+        "start": { "line": 23, "column": 3 },
+        "end": { "line": 23, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 34, "column": 7 },
+          "end": { "line": 34, "column": 20 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: suggestions.length, searchQuery.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\components\\admin\\SettingsSearch.tsx",
+        "start": { "line": 58, "column": 3 },
+        "end": { "line": 58, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 60, "column": 7 },
+          "end": { "line": 60, "column": 25 },
+          "text": "Outer scope values aren't valid dependencies because mutating them doesn't re-render the component."
+        },
+        {
+          "start": { "line": 60, "column": 27 },
+          "end": { "line": 60, "column": 38 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: suggestions.length, searchQuery.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\components\\admin\\SettingsSearch.tsx",
+        "start": { "line": 195, "column": 3 },
+        "end": { "line": 195, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 197, "column": 7 },
+          "end": { "line": 197, "column": 25 },
+          "text": "Outer scope values aren't valid dependencies because mutating them doesn't re-render the component."
+        },
+        {
+          "start": { "line": 197, "column": 27 },
+          "end": { "line": 197, "column": 38 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: suggestions.length, searchQuery.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\components\\admin\\SettingsTreeSidebar.tsx",
+        "start": { "line": 78, "column": 3 },
+        "end": { "line": 78, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 80, "column": 7 },
+          "end": { "line": 80, "column": 25 },
+          "text": "Outer scope values aren't valid dependencies because mutating them doesn't re-render the component."
+        },
+        {
+          "start": { "line": 80, "column": 27 },
+          "end": { "line": 80, "column": 38 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: progress.log.length.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\components\\admin\\bulkActions\\ActionModal.tsx",
+        "start": { "line": 57, "column": 3 },
+        "end": { "line": 57, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 59, "column": 7 },
+          "end": { "line": 59, "column": 26 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\components\\admin\\trafficUsage\\trafficUsageHelpers.ts",
+        "start": { "line": 46, "column": 7 },
+        "end": { "line": 46, "column": 12 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\components\\admin\\userDetail\\SubscriptionTab.tsx",
+        "start": { "line": 682, "column": 56 },
+        "end": { "line": 682, "column": 83 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\components\\admin\\userDetail\\SubscriptionTab.tsx",
+        "start": { "line": 695, "column": 56 },
+        "end": { "line": 695, "column": 76 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\components\\admin\\userDetail\\SubscriptionTab.tsx",
+        "start": { "line": 719, "column": 56 },
+        "end": { "line": 719, "column": 82 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\components\\admin\\userDetail\\SubscriptionTab.tsx",
+        "start": { "line": 732, "column": 56 },
+        "end": { "line": 732, "column": 77 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\components\\admin\\userDetail\\SubscriptionTab.tsx",
+        "start": { "line": 745, "column": 56 },
+        "end": { "line": 745, "column": 78 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Change to an optional chain.",
+      "category": "lint/complexity/useOptionalChain",
+      "location": {
+        "path": "src\\components\\admin\\userDetail\\SubscriptionTab.tsx",
+        "start": { "line": 493, "column": 12 },
+        "end": { "line": 494, "column": 48 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Change to an optional chain.",
+      "category": "lint/complexity/useOptionalChain",
+      "location": {
+        "path": "src\\components\\admin\\userDetail\\SubscriptionTab.tsx",
+        "start": { "line": 671, "column": 15 },
+        "end": { "line": 671, "column": 43 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Change to an optional chain.",
+      "category": "lint/complexity/useOptionalChain",
+      "location": {
+        "path": "src\\components\\admin\\userDetail\\SubscriptionTab.tsx",
+        "start": { "line": 928, "column": 22 },
+        "end": { "line": 928, "column": 67 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on loadTicketDetail.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\components\\admin\\userDetail\\TicketsTab.tsx",
+        "start": { "line": 62, "column": 3 },
+        "end": { "line": 62, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 64, "column": 7 },
+          "end": { "line": 64, "column": 23 },
+          "text": "Unsafe fix: Add the missing dependency loadTicketDetail to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\components\\admin\\userDetail\\TicketsTab.tsx",
+        "start": { "line": 322, "column": 17 },
+        "end": { "line": 322, "column": 40 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\components\\broadcasts\\BroadcastPreview.tsx",
+        "start": { "line": 155, "column": 25 },
+        "end": { "line": 155, "column": 33 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\components\\broadcasts\\BroadcastPreview.tsx",
+        "start": { "line": 166, "column": 24 },
+        "end": { "line": 166, "column": 36 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\components\\broadcasts\\BroadcastPreview.tsx",
+        "start": { "line": 173, "column": 20 },
+        "end": { "line": 173, "column": 32 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Change to an optional chain.",
+      "category": "lint/complexity/useOptionalChain",
+      "location": {
+        "path": "src\\components\\connection\\InstallationGuide.tsx",
+        "start": { "line": 107, "column": 14 },
+        "end": { "line": 107, "column": 31 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\components\\connection\\InstallationGuide.tsx",
+        "start": { "line": 263, "column": 17 },
+        "end": { "line": 263, "column": 40 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\components\\connection\\InstallationGuide.tsx",
+        "start": { "line": 326, "column": 21 },
+        "end": { "line": 326, "column": 44 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\components\\connection\\blocks\\BlockButtons.tsx",
+        "start": { "line": 74, "column": 13 },
+        "end": { "line": 74, "column": 36 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\components\\connection\\blocks\\ThemeIcon.tsx",
+        "start": { "line": 30, "column": 9 },
+        "end": { "line": 30, "column": 32 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: startColor.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\components\\dashboard\\TrafficProgressBar.tsx",
+        "start": { "line": 38, "column": 24 },
+        "end": { "line": 38, "column": 31 }
+      },
+      "advices": [
+        {
+          "start": { "line": 45, "column": 30 },
+          "end": { "line": 45, "column": 40 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: location.pathname.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\components\\layout\\AppShell\\AppShell.tsx",
+        "start": { "line": 82, "column": 3 },
+        "end": { "line": 82, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 84, "column": 7 },
+          "end": { "line": 84, "column": 24 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\components\\news\\GridBackground.tsx",
+        "start": { "line": 93, "column": 9 },
+        "end": { "line": 93, "column": 30 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\components\\news\\GridBackground.tsx",
+        "start": { "line": 113, "column": 9 },
+        "end": { "line": 113, "column": 30 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\components\\news\\GridBackground.tsx",
+        "start": { "line": 13, "column": 48 },
+        "end": { "line": 13, "column": 53 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\components\\partner\\CampaignCard.tsx",
+        "start": { "line": 136, "column": 41 },
+        "end": { "line": 136, "column": 60 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\components\\partner\\CampaignCard.tsx",
+        "start": { "line": 161, "column": 41 },
+        "end": { "line": 161, "column": 59 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\components\\stats\\StatCard.tsx",
+        "start": { "line": 84, "column": 40 },
+        "end": { "line": 84, "column": 46 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on onTargetDeviceLimitChange.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\components\\subscription\\sheets\\DeviceReductionSheet.tsx",
+        "start": { "line": 47, "column": 3 },
+        "end": { "line": 47, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 49, "column": 7 },
+          "end": { "line": 49, "column": 32 },
+          "text": "Unsafe fix: Add the missing dependency onTargetDeviceLimitChange to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on onSelectedServersChange.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\components\\subscription\\sheets\\ServerManagementSheet.tsx",
+        "start": { "line": 57, "column": 3 },
+        "end": { "line": 57, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 60, "column": 7 },
+          "end": { "line": 60, "column": 30 },
+          "text": "Unsafe fix: Add the missing dependency onSelectedServersChange to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\components\\subscription\\sheets\\SwitchTariffSheet.tsx",
+        "start": { "line": 82, "column": 56 },
+        "end": { "line": 82, "column": 65 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\components\\ui\\backgrounds\\background-gradient-animation.tsx",
+        "start": { "line": 22, "column": 7 },
+        "end": { "line": 22, "column": 12 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\components\\ui\\backgrounds\\background-gradient-animation.tsx",
+        "start": { "line": 22, "column": 19 },
+        "end": { "line": 22, "column": 24 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\components\\ui\\backgrounds\\background-gradient-animation.tsx",
+        "start": { "line": 22, "column": 31 },
+        "end": { "line": 22, "column": 36 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This dependencies list is not an array literal.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\hooks\\useAnimationLoop.ts",
+        "start": { "line": 85, "column": 6 },
+        "end": { "line": 85, "column": 10 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\hooks\\useChartColors.ts",
+        "start": { "line": 33, "column": 40 },
+        "end": { "line": 33, "column": 45 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: themeKey.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\hooks\\useChartColors.ts",
+        "start": { "line": 69, "column": 18 },
+        "end": { "line": 69, "column": 25 }
+      },
+      "advices": [
+        {
+          "start": { "line": 80, "column": 6 },
+          "end": { "line": 80, "column": 14 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies a dependency more specific than its captures: flags.giftEnabled",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\hooks\\useFeatureFlags.ts",
+        "start": { "line": 84, "column": 3 },
+        "end": { "line": 84, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 87, "column": 60 },
+          "end": { "line": 87, "column": 65 },
+          "text": "...this dependency."
+        },
+        { "start": { "line": 97, "column": 5 }, "end": { "line": 97, "column": 22 }, "text": "" }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on flags.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\hooks\\useFeatureFlags.ts",
+        "start": { "line": 84, "column": 3 },
+        "end": { "line": 84, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 87, "column": 60 },
+          "end": { "line": 87, "column": 65 },
+          "text": "Unsafe fix: Add the missing dependency flags to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on referralTerms.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\hooks\\useFeatureFlags.ts",
+        "start": { "line": 84, "column": 3 },
+        "end": { "line": 84, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 85, "column": 10 },
+          "end": { "line": 85, "column": 23 },
+          "text": "Unsafe fix: Add the missing dependency referralTerms to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on wheelConfig.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\hooks\\useFeatureFlags.ts",
+        "start": { "line": 84, "column": 3 },
+        "end": { "line": 84, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 85, "column": 28 },
+          "end": { "line": 85, "column": 39 },
+          "text": "Unsafe fix: Add the missing dependency wheelConfig to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on pollsCount.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\hooks\\useFeatureFlags.ts",
+        "start": { "line": 84, "column": 3 },
+        "end": { "line": 84, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 85, "column": 62 },
+          "end": { "line": 85, "column": 72 },
+          "text": "Unsafe fix: Add the missing dependency pollsCount to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on contestsCount.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\hooks\\useFeatureFlags.ts",
+        "start": { "line": 84, "column": 3 },
+        "end": { "line": 84, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 85, "column": 44 },
+          "end": { "line": 85, "column": 57 },
+          "text": "Unsafe fix: Add the missing dependency contestsCount to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on giftConfig.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\hooks\\useFeatureFlags.ts",
+        "start": { "line": 84, "column": 3 },
+        "end": { "line": 84, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 85, "column": 77 },
+          "end": { "line": 85, "column": 87 },
+          "text": "Unsafe fix: Add the missing dependency giftConfig to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\hooks\\usePromoDiscount.ts",
+        "start": { "line": 65, "column": 18 },
+        "end": { "line": 65, "column": 51 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\hooks\\usePromoDiscount.ts",
+        "start": { "line": 47, "column": 52 },
+        "end": { "line": 47, "column": 85 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\hooks\\usePromoDiscount.ts",
+        "start": { "line": 47, "column": 52 },
+        "end": { "line": 47, "column": 67 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\hooks\\usePromoDiscount.ts",
+        "start": { "line": 52, "column": 42 },
+        "end": { "line": 52, "column": 64 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\hooks\\usePromoDiscount.ts",
+        "start": { "line": 53, "column": 43 },
+        "end": { "line": 53, "column": 65 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\hooks\\usePromoDiscount.ts",
+        "start": { "line": 56, "column": 21 },
+        "end": { "line": 56, "column": 43 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\hooks\\usePromoDiscount.ts",
+        "start": { "line": 65, "column": 18 },
+        "end": { "line": 65, "column": 33 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Unexpected any. Specify a different type.",
+      "category": "lint/suspicious/noExplicitAny",
+      "location": {
+        "path": "src\\main.tsx",
+        "start": { "line": 45, "column": 14 },
+        "end": { "line": 45, "column": 17 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\main.tsx",
+        "start": { "line": 136, "column": 21 },
+        "end": { "line": 136, "column": 53 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminAuditLog.tsx",
+        "start": { "line": 380, "column": 10 },
+        "end": { "line": 380, "column": 15 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminAuditLog.tsx",
+        "start": { "line": 451, "column": 12 },
+        "end": { "line": 451, "column": 17 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminBroadcastDetail.tsx",
+        "start": { "line": 69, "column": 32 },
+        "end": { "line": 69, "column": 37 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminBroadcastDetail.tsx",
+        "start": { "line": 84, "column": 23 },
+        "end": { "line": 84, "column": 28 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminCampaignStats.tsx",
+        "start": { "line": 85, "column": 46 },
+        "end": { "line": 85, "column": 56 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminCampaignStats.tsx",
+        "start": { "line": 207, "column": 47 },
+        "end": { "line": 207, "column": 63 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminCampaignStats.tsx",
+        "start": { "line": 231, "column": 47 },
+        "end": { "line": 231, "column": 62 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminCampaignStats.tsx",
+        "start": { "line": 46, "column": 44 },
+        "end": { "line": 46, "column": 49 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminCampaignStats.tsx",
+        "start": { "line": 70, "column": 50 },
+        "end": { "line": 70, "column": 60 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminCampaignStats.tsx",
+        "start": { "line": 78, "column": 58 },
+        "end": { "line": 78, "column": 68 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminChannelSubscriptions.tsx",
+        "start": { "line": 473, "column": 10 },
+        "end": { "line": 473, "column": 15 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminChannelSubscriptions.tsx",
+        "start": { "line": 202, "column": 23 },
+        "end": { "line": 202, "column": 44 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminCouponCreate.tsx",
+        "start": { "line": 76, "column": 18 },
+        "end": { "line": 76, "column": 27 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminEmailTemplates.tsx",
+        "start": { "line": 393, "column": 22 },
+        "end": { "line": 393, "column": 49 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminEmailTemplates.tsx",
+        "start": { "line": 512, "column": 55 },
+        "end": { "line": 512, "column": 68 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: activeLang.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminEmailTemplates.tsx",
+        "start": { "line": 127, "column": 3 },
+        "end": { "line": 127, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 136, "column": 7 },
+          "end": { "line": 136, "column": 17 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: locale.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminInfoPageEditor.tsx",
+        "start": { "line": 454, "column": 3 },
+        "end": { "line": 454, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 456, "column": 7 },
+          "end": { "line": 456, "column": 13 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on t.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminInfoPageEditor.tsx",
+        "start": { "line": 667, "column": 22 },
+        "end": { "line": 667, "column": 29 }
+      },
+      "advices": [
+        {
+          "start": { "line": 683, "column": 22 },
+          "end": { "line": 683, "column": 23 },
+          "text": "Unsafe fix: Add the missing dependency t to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on items.map.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminInfoPageEditor.tsx",
+        "start": { "line": 454, "column": 3 },
+        "end": { "line": 454, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 455, "column": 17 },
+          "end": { "line": 455, "column": 26 },
+          "text": "Unsafe fix: Add the missing dependency items.map to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on activeLocale.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminInfoPageEditor.tsx",
+        "start": { "line": 885, "column": 3 },
+        "end": { "line": 885, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 887, "column": 45 },
+          "end": { "line": 887, "column": 57 },
+          "text": "Unsafe fix: Add the missing dependency activeLocale to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on tariffPeriodsData.forEach.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminLandingEditor.tsx",
+        "start": { "line": 200, "column": 28 },
+        "end": { "line": 200, "column": 35 }
+      },
+      "advices": [
+        {
+          "start": { "line": 202, "column": 5 },
+          "end": { "line": 202, "column": 30 },
+          "text": "Unsafe fix: Add the missing dependency tariffPeriodsData.forEach to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: JSON.stringify(tariffPeriodsData.map((d) => d?.id)), selectedTariffIds.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminLandingEditor.tsx",
+        "start": { "line": 200, "column": 28 },
+        "end": { "line": 200, "column": 35 }
+      },
+      "advices": [
+        {
+          "start": { "line": 209, "column": 7 },
+          "end": { "line": 209, "column": 58 },
+          "text": "This dependency can be removed from the list."
+        },
+        {
+          "start": { "line": 209, "column": 60 },
+          "end": { "line": 209, "column": 77 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: id.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminLandingEditor.tsx",
+        "start": { "line": 226, "column": 3 },
+        "end": { "line": 226, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 228, "column": 7 },
+          "end": { "line": 228, "column": 9 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminLandingStats.tsx",
+        "start": { "line": 179, "column": 22 },
+        "end": { "line": 179, "column": 27 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: divisor.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminLandingStats.tsx",
+        "start": { "line": 248, "column": 24 },
+        "end": { "line": 248, "column": 31 }
+      },
+      "advices": [
+        {
+          "start": { "line": 251, "column": 14 },
+          "end": { "line": 251, "column": 21 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: divisor.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminLandingStats.tsx",
+        "start": { "line": 254, "column": 23 },
+        "end": { "line": 254, "column": 30 }
+      },
+      "advices": [
+        {
+          "start": { "line": 261, "column": 13 },
+          "end": { "line": 261, "column": 20 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on t.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminNewsCreate.tsx",
+        "start": { "line": 174, "column": 22 },
+        "end": { "line": 174, "column": 29 }
+      },
+      "advices": [
+        {
+          "start": { "line": 190, "column": 22 },
+          "end": { "line": 190, "column": 23 },
+          "text": "Unsafe fix: Add the missing dependency t to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminPartnerSettings.tsx",
+        "start": { "line": 220, "column": 22 },
+        "end": { "line": 220, "column": 27 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminPartnerSettings.tsx",
+        "start": { "line": 244, "column": 22 },
+        "end": { "line": 244, "column": 27 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminPaymentMethodEdit.tsx",
+        "start": { "line": 269, "column": 82 },
+        "end": { "line": 269, "column": 91 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminPaymentMethodEdit.tsx",
+        "start": { "line": 340, "column": 9 },
+        "end": { "line": 340, "column": 14 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: statusFilter, periodFilter, methodFilter, dateFrom, dateTo.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminPayments.tsx",
+        "start": { "line": 73, "column": 3 },
+        "end": { "line": 73, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 75, "column": 7 },
+          "end": { "line": 75, "column": 19 },
+          "text": "This dependency can be removed from the list."
+        },
+        {
+          "start": { "line": 75, "column": 21 },
+          "end": { "line": 75, "column": 33 },
+          "text": "This dependency can be removed from the list."
+        },
+        {
+          "start": { "line": 75, "column": 35 },
+          "end": { "line": 75, "column": 47 },
+          "text": "This dependency can be removed from the list."
+        },
+        {
+          "start": { "line": 75, "column": 49 },
+          "end": { "line": 75, "column": 57 },
+          "text": "This dependency can be removed from the list."
+        },
+        {
+          "start": { "line": 75, "column": 59 },
+          "end": { "line": 75, "column": 65 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminPinnedMessageCreate.tsx",
+        "start": { "line": 48, "column": 47 },
+        "end": { "line": 48, "column": 57 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminPinnedMessageCreate.tsx",
+        "start": { "line": 78, "column": 37 },
+        "end": { "line": 78, "column": 47 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminPolicies.tsx",
+        "start": { "line": 181, "column": 47 },
+        "end": { "line": 181, "column": 63 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminPromoGroupCreate.tsx",
+        "start": { "line": 298, "column": 28 },
+        "end": { "line": 298, "column": 33 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminPromoGroupCreate.tsx",
+        "start": { "line": 284, "column": 28 },
+        "end": { "line": 284, "column": 33 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on activeTreeInfo.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminSettings.tsx",
+        "start": { "line": 168, "column": 24 },
+        "end": { "line": 168, "column": 31 }
+      },
+      "advices": [
+        {
+          "start": { "line": 174, "column": 9 },
+          "end": { "line": 174, "column": 23 },
+          "text": "Unsafe fix: Add the missing dependency activeTreeInfo to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on activeTreeInfo.child.id.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminSettings.tsx",
+        "start": { "line": 168, "column": 24 },
+        "end": { "line": 168, "column": 31 }
+      },
+      "advices": [
+        {
+          "start": { "line": 174, "column": 57 },
+          "end": { "line": 174, "column": 80 },
+          "text": "Unsafe fix: Add the missing dependency activeTreeInfo.child.id to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminSettings.tsx",
+        "start": { "line": 102, "column": 9 },
+        "end": { "line": 102, "column": 47 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: activeSection.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminSettings.tsx",
+        "start": { "line": 43, "column": 3 },
+        "end": { "line": 43, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 45, "column": 7 },
+          "end": { "line": 45, "column": 20 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on activeTreeInfo.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminSettings.tsx",
+        "start": { "line": 80, "column": 29 },
+        "end": { "line": 80, "column": 36 }
+      },
+      "advices": [
+        {
+          "start": { "line": 81, "column": 10 },
+          "end": { "line": 81, "column": 24 },
+          "text": "Unsafe fix: Add the missing dependency activeTreeInfo to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on activeTreeInfo.child.categories.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminSettings.tsx",
+        "start": { "line": 80, "column": 29 },
+        "end": { "line": 80, "column": 36 }
+      },
+      "advices": [
+        {
+          "start": { "line": 83, "column": 26 },
+          "end": { "line": 83, "column": 57 },
+          "text": "Unsafe fix: Add the missing dependency activeTreeInfo.child.categories to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: activeSection.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminSettings.tsx",
+        "start": { "line": 80, "column": 29 },
+        "end": { "line": 80, "column": 36 }
+      },
+      "advices": [
+        {
+          "start": { "line": 112, "column": 7 },
+          "end": { "line": 112, "column": 20 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: setActiveSection, setSearchQuery.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminSettings.tsx",
+        "start": { "line": 156, "column": 31 },
+        "end": { "line": 156, "column": 42 }
+      },
+      "advices": [
+        {
+          "start": { "line": 164, "column": 6 },
+          "end": { "line": 164, "column": 22 },
+          "text": "This dependency can be removed from the list."
+        },
+        {
+          "start": { "line": 164, "column": 24 },
+          "end": { "line": 164, "column": 38 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminTicketSettings.tsx",
+        "start": { "line": 244, "column": 22 },
+        "end": { "line": 244, "column": 27 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminTicketSettings.tsx",
+        "start": { "line": 271, "column": 22 },
+        "end": { "line": 271, "column": 27 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminTicketSettings.tsx",
+        "start": { "line": 301, "column": 22 },
+        "end": { "line": 301, "column": 27 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This callback passed to forEach() iterable method should not return a value.",
+      "category": "lint/suspicious/useIterableCallbackReturn",
+      "location": {
+        "path": "src\\pages\\AdminTickets.tsx",
+        "start": { "line": 96, "column": 20 },
+        "end": { "line": 96, "column": 27 }
+      },
+      "advices": [
+        {
+          "start": { "line": 96, "column": 35 },
+          "end": { "line": 96, "column": 57 },
+          "text": "Either remove this return or remove the returned value."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminTickets.tsx",
+        "start": { "line": 117, "column": 39 },
+        "end": { "line": 117, "column": 56 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminTickets.tsx",
+        "start": { "line": 402, "column": 50 },
+        "end": { "line": 402, "column": 62 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminTickets.tsx",
+        "start": { "line": 407, "column": 31 },
+        "end": { "line": 407, "column": 43 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminTickets.tsx",
+        "start": { "line": 490, "column": 63 },
+        "end": { "line": 490, "column": 83 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminTickets.tsx",
+        "start": { "line": 494, "column": 30 },
+        "end": { "line": 494, "column": 50 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\AdminTickets.tsx",
+        "start": { "line": 502, "column": 63 },
+        "end": { "line": 502, "column": 83 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\pages\\AdminTickets.tsx",
+        "start": { "line": 555, "column": 25 },
+        "end": { "line": 555, "column": 48 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: limit.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminTrafficUsage.tsx",
+        "start": { "line": 253, "column": 3 },
+        "end": { "line": 253, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 273, "column": 25 },
+          "end": { "line": 273, "column": 30 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\pages\\AdminUpdates.tsx",
+        "start": { "line": 146, "column": 11 },
+        "end": { "line": 146, "column": 34 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminUserDetail.tsx",
+        "start": { "line": 141, "column": 27 },
+        "end": { "line": 141, "column": 32 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminUserDetail.tsx",
+        "start": { "line": 179, "column": 27 },
+        "end": { "line": 179, "column": 32 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminUserDetail.tsx",
+        "start": { "line": 184, "column": 27 },
+        "end": { "line": 184, "column": 32 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminUserDetail.tsx",
+        "start": { "line": 190, "column": 27 },
+        "end": { "line": 190, "column": 32 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminUserDetail.tsx",
+        "start": { "line": 196, "column": 27 },
+        "end": { "line": 196, "column": 32 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminUserDetail.tsx",
+        "start": { "line": 201, "column": 27 },
+        "end": { "line": 201, "column": 32 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminUserDetail.tsx",
+        "start": { "line": 207, "column": 27 },
+        "end": { "line": 207, "column": 32 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminUserDetail.tsx",
+        "start": { "line": 212, "column": 27 },
+        "end": { "line": 212, "column": 32 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminUserDetail.tsx",
+        "start": { "line": 325, "column": 20 },
+        "end": { "line": 325, "column": 25 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on loadRequestHistory.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminUserDetail.tsx",
+        "start": { "line": 332, "column": 3 },
+        "end": { "line": 332, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 337, "column": 5 },
+          "end": { "line": 337, "column": 23 },
+          "text": "Unsafe fix: Add the missing dependency loadRequestHistory to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on requestHistoryExpanded.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\AdminUserDetail.tsx",
+        "start": { "line": 332, "column": 3 },
+        "end": { "line": 332, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 333, "column": 10 },
+          "end": { "line": 333, "column": 32 },
+          "text": "Unsafe fix: Add the missing dependency requestHistoryExpanded to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminWheel.tsx",
+        "start": { "line": 621, "column": 26 },
+        "end": { "line": 621, "column": 31 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminWheel.tsx",
+        "start": { "line": 504, "column": 28 },
+        "end": { "line": 504, "column": 33 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminWheel.tsx",
+        "start": { "line": 546, "column": 28 },
+        "end": { "line": 546, "column": 33 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminWheel.tsx",
+        "start": { "line": 647, "column": 26 },
+        "end": { "line": 647, "column": 31 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminWheel.tsx",
+        "start": { "line": 1068, "column": 22 },
+        "end": { "line": 1068, "column": 27 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\AdminWheel.tsx",
+        "start": { "line": 1088, "column": 20 },
+        "end": { "line": 1088, "column": 25 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\CouponStatus.tsx",
+        "start": { "line": 59, "column": 47 },
+        "end": { "line": 59, "column": 53 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\CouponStatus.tsx",
+        "start": { "line": 50, "column": 47 },
+        "end": { "line": 50, "column": 53 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\GiftClaim.tsx",
+        "start": { "line": 48, "column": 44 },
+        "end": { "line": 48, "column": 50 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\GiftClaim.tsx",
+        "start": { "line": 62, "column": 44 },
+        "end": { "line": 62, "column": 50 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\GiftResult.tsx",
+        "start": { "line": 481, "column": 46 },
+        "end": { "line": 481, "column": 52 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\GiftResult.tsx",
+        "start": { "line": 549, "column": 28 },
+        "end": { "line": 549, "column": 50 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\GiftSubscription.tsx",
+        "start": { "line": 369, "column": 14 },
+        "end": { "line": 369, "column": 33 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\GiftSubscription.tsx",
+        "start": { "line": 1258, "column": 14 },
+        "end": { "line": 1258, "column": 28 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\pages\\Info.tsx",
+        "start": { "line": 199, "column": 13 },
+        "end": { "line": 199, "column": 36 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Change to an optional chain.",
+      "category": "lint/complexity/useOptionalChain",
+      "location": {
+        "path": "src\\pages\\Info.tsx",
+        "start": { "line": 292, "column": 9 },
+        "end": { "line": 292, "column": 50 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\pages\\Info.tsx",
+        "start": { "line": 412, "column": 42 },
+        "end": { "line": 412, "column": 65 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\pages\\Info.tsx",
+        "start": { "line": 463, "column": 24 },
+        "end": { "line": 463, "column": 47 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\pages\\Info.tsx",
+        "start": { "line": 489, "column": 13 },
+        "end": { "line": 489, "column": 36 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\pages\\Info.tsx",
+        "start": { "line": 517, "column": 13 },
+        "end": { "line": 517, "column": 36 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\pages\\Info.tsx",
+        "start": { "line": 545, "column": 13 },
+        "end": { "line": 545, "column": 36 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\pages\\InfoPageView.tsx",
+        "start": { "line": 216, "column": 13 },
+        "end": { "line": 216, "column": 36 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\pages\\InfoPageView.tsx",
+        "start": { "line": 406, "column": 11 },
+        "end": { "line": 406, "column": 34 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\pages\\NewsArticle.tsx",
+        "start": { "line": 392, "column": 9 },
+        "end": { "line": 392, "column": 32 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Change to an optional chain.",
+      "category": "lint/complexity/useOptionalChain",
+      "location": {
+        "path": "src\\pages\\OAuthCallback.tsx",
+        "start": { "line": 136, "column": 5 },
+        "end": { "line": 137, "column": 29 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This hook does not specify its dependency on resetChangeEmail.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\Profile.tsx",
+        "start": { "line": 204, "column": 3 },
+        "end": { "line": 204, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 206, "column": 36 },
+          "end": { "line": 206, "column": 52 },
+          "text": "Unsafe fix: Add the missing dependency resetChangeEmail to the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\pages\\PublicLegal.tsx",
+        "start": { "line": 78, "column": 18 },
+        "end": { "line": 78, "column": 41 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\PurchaseSuccess.tsx",
+        "start": { "line": 693, "column": 49 },
+        "end": { "line": 693, "column": 55 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\PurchaseSuccess.tsx",
+        "start": { "line": 802, "column": 27 },
+        "end": { "line": 802, "column": 56 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\QuickPurchase.tsx",
+        "start": { "line": 404, "column": 14 },
+        "end": { "line": 404, "column": 33 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\QuickPurchase.tsx",
+        "start": { "line": 780, "column": 41 },
+        "end": { "line": 780, "column": 46 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\QuickPurchase.tsx",
+        "start": { "line": 975, "column": 7 },
+        "end": { "line": 975, "column": 12 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\QuickPurchase.tsx",
+        "start": { "line": 1033, "column": 70 },
+        "end": { "line": 1033, "column": 75 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\QuickPurchase.tsx",
+        "start": { "line": 1060, "column": 25 },
+        "end": { "line": 1060, "column": 40 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\QuickPurchase.tsx",
+        "start": { "line": 1066, "column": 18 },
+        "end": { "line": 1066, "column": 35 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\QuickPurchase.tsx",
+        "start": { "line": 1067, "column": 20 },
+        "end": { "line": 1067, "column": 39 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\pages\\QuickPurchase.tsx",
+        "start": { "line": 443, "column": 51 },
+        "end": { "line": 443, "column": 74 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: setIsOpen.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\ReferralNetwork\\components\\NetworkFilters.tsx",
+        "start": { "line": 29, "column": 3 },
+        "end": { "line": 29, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 38, "column": 15 },
+          "end": { "line": 38, "column": 24 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\ReferralNetwork\\components\\NetworkGraph.tsx",
+        "start": { "line": 94, "column": 44 },
+        "end": { "line": 94, "column": 58 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: hoveredNodeId, highlightedNodes.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\ReferralNetwork\\components\\NetworkGraph.tsx",
+        "start": { "line": 530, "column": 3 },
+        "end": { "line": 530, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 534, "column": 7 },
+          "end": { "line": 534, "column": 20 },
+          "text": "This dependency can be removed from the list."
+        },
+        {
+          "start": { "line": 534, "column": 22 },
+          "end": { "line": 534, "column": 38 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "Change to an optional chain.",
+      "category": "lint/complexity/useOptionalChain",
+      "location": {
+        "path": "src\\pages\\ReferralNetwork\\components\\ScopeSelector.tsx",
+        "start": { "line": 180, "column": 10 },
+        "end": { "line": 180, "column": 60 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\SavedCards.tsx",
+        "start": { "line": 22, "column": 9 },
+        "end": { "line": 22, "column": 14 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Change to an optional chain.",
+      "category": "lint/complexity/useOptionalChain",
+      "location": {
+        "path": "src\\pages\\Subscription.tsx",
+        "start": { "line": 1506, "column": 8 },
+        "end": { "line": 1506, "column": 45 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Change to an optional chain.",
+      "category": "lint/complexity/useOptionalChain",
+      "location": {
+        "path": "src\\pages\\Subscription.tsx",
+        "start": { "line": 1898, "column": 20 },
+        "end": { "line": 1898, "column": 65 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\SubscriptionPurchase.tsx",
+        "start": { "line": 21, "column": 16 },
+        "end": { "line": 21, "column": 51 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\Support.tsx",
+        "start": { "line": 175, "column": 35 },
+        "end": { "line": 175, "column": 50 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Avoid passing content using the dangerouslySetInnerHTML prop.",
+      "category": "lint/security/noDangerouslySetInnerHtml",
+      "location": {
+        "path": "src\\pages\\Support.tsx",
+        "start": { "line": 574, "column": 27 },
+        "end": { "line": 574, "column": 50 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This callback passed to forEach() iterable method should not return a value.",
+      "category": "lint/suspicious/useIterableCallbackReturn",
+      "location": {
+        "path": "src\\pages\\Support.tsx",
+        "start": { "line": 470, "column": 29 },
+        "end": { "line": 470, "column": 36 }
+      },
+      "advices": [
+        {
+          "start": { "line": 470, "column": 47 },
+          "end": { "line": 470, "column": 91 },
+          "text": "Either remove this return or remove the returned value."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This callback passed to forEach() iterable method should not return a value.",
+      "category": "lint/suspicious/useIterableCallbackReturn",
+      "location": {
+        "path": "src\\pages\\Support.tsx",
+        "start": { "line": 71, "column": 20 },
+        "end": { "line": 71, "column": 27 }
+      },
+      "advices": [
+        {
+          "start": { "line": 71, "column": 35 },
+          "end": { "line": 71, "column": 57 },
+          "text": "Either remove this return or remove the returned value."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\Support.tsx",
+        "start": { "line": 105, "column": 41 },
+        "end": { "line": 105, "column": 56 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This callback passed to forEach() iterable method should not return a value.",
+      "category": "lint/suspicious/useIterableCallbackReturn",
+      "location": {
+        "path": "src\\pages\\Support.tsx",
+        "start": { "line": 624, "column": 33 },
+        "end": { "line": 624, "column": 40 }
+      },
+      "advices": [
+        {
+          "start": { "line": 624, "column": 51 },
+          "end": { "line": 624, "column": 94 },
+          "text": "Either remove this return or remove the returned value."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: method?.id.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\TopUpAmount.tsx",
+        "start": { "line": 168, "column": 3 },
+        "end": { "line": 168, "column": 12 }
+      },
+      "advices": [
+        {
+          "start": { "line": 180, "column": 7 },
+          "end": { "line": 180, "column": 17 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\TopUpAmount.tsx",
+        "start": { "line": 332, "column": 9 },
+        "end": { "line": 332, "column": 14 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\TopUpAmount.tsx",
+        "start": { "line": 91, "column": 18 },
+        "end": { "line": 91, "column": 45 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\TopUpResult.tsx",
+        "start": { "line": 247, "column": 48 },
+        "end": { "line": 247, "column": 62 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\pages\\TopUpResult.tsx",
+        "start": { "line": 213, "column": 35 },
+        "end": { "line": 213, "column": 40 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: setPollTimedOut.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\pages\\TopUpResult.tsx",
+        "start": { "line": 270, "column": 27 },
+        "end": { "line": 270, "column": 38 }
+      },
+      "advices": [
+        {
+          "start": { "line": 278, "column": 20 },
+          "end": { "line": 278, "column": 35 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "Forbidden non-null assertion.",
+      "category": "lint/style/noNonNullAssertion",
+      "location": {
+        "path": "src\\pages\\TopUpResult.tsx",
+        "start": { "line": 224, "column": 49 },
+        "end": { "line": 224, "column": 61 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This variable implicitly has the any type.",
+      "category": "lint/suspicious/noImplicitAnyLet",
+      "location": {
+        "path": "src\\pages\\Wheel.tsx",
+        "start": { "line": 141, "column": 11 },
+        "end": { "line": 141, "column": 24 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This hook specifies more dependencies than necessary: maxReconnectAttempts.",
+      "category": "lint/correctness/useExhaustiveDependencies",
+      "location": {
+        "path": "src\\providers\\WebSocketProvider.tsx",
+        "start": { "line": 64, "column": 19 },
+        "end": { "line": 64, "column": 30 }
+      },
+      "advices": [
+        {
+          "start": { "line": 161, "column": 46 },
+          "end": { "line": 161, "column": 66 },
+          "text": "Unsafe fix: Remove the extra dependencies from the list."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "isNaN is unsafe. It attempts a type coercion. Use Number.isNaN instead.",
+      "category": "lint/suspicious/noGlobalIsNan",
+      "location": {
+        "path": "src\\utils\\inputHelpers.ts",
+        "start": { "line": 26, "column": 9 },
+        "end": { "line": 26, "column": 14 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "warning",
+      "message": "This callback passed to forEach() iterable method should not return a value.",
+      "category": "lint/suspicious/useIterableCallbackReturn",
+      "location": {
+        "path": "src\\utils\\token.ts",
+        "start": { "line": 292, "column": 22 },
+        "end": { "line": 292, "column": 29 }
+      },
+      "advices": [
+        {
+          "start": { "line": 292, "column": 38 },
+          "end": { "line": 292, "column": 47 },
+          "text": "Either remove this return or remove the returned value."
+        }
+      ]
+    },
+    {
+      "severity": "warning",
+      "message": "This parameter fallback is unused.",
+      "category": "lint/correctness/noUnusedFunctionParameters",
+      "location": {
+        "path": "tailwind.config.js",
+        "start": { "line": 4, "column": 36 },
+        "end": { "line": 4, "column": 44 }
+      },
+      "advices": []
+    },
+    {
+      "severity": "error",
+      "message": "Expected an array, an object, or a literal but instead found the end of the file.",
+      "category": "parse",
+      "location": {
+        "path": "biome-lint.json",
+        "start": { "line": 1, "column": 1 },
+        "end": { "line": 1, "column": 1 }
+      },
+      "advices": [
+        {
+          "start": { "line": 1, "column": 1 },
+          "end": { "line": 1, "column": 1 },
+          "text": "Expected an array, an object, or a literal here."
+        }
+      ]
+    }
+  ],
+  "command": "lint"
+}

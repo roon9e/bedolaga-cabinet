@@ -300,7 +300,7 @@ export default {
     },
   },
   plugins: [
-    function ({ addVariant }) {
+    ({ addVariant }) => {
       addVariant('light', '.light &');
     },
   ],

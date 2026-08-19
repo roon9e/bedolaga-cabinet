@@ -262,7 +262,7 @@ export function SubscriptionTab(props: SubscriptionTabProps) {
                 <select
                   value={selectedTariffId || ''}
                   onChange={(e) =>
-                    onSelectedTariffIdChange(e.target.value ? parseInt(e.target.value) : null)
+                    onSelectedTariffIdChange(e.target.value ? parseInt(e.target.value, 10) : null)
                   }
                   className="input"
                 >
@@ -563,7 +563,7 @@ export function SubscriptionTab(props: SubscriptionTabProps) {
                   <select
                     value={selectedTariffId || ''}
                     onChange={(e) =>
-                      onSelectedTariffIdChange(e.target.value ? parseInt(e.target.value) : null)
+                      onSelectedTariffIdChange(e.target.value ? parseInt(e.target.value, 10) : null)
                     }
                     className="input"
                   >
@@ -608,7 +608,7 @@ export function SubscriptionTab(props: SubscriptionTabProps) {
             <select
               value={selectedTariffId || ''}
               onChange={(e) =>
-                onSelectedTariffIdChange(e.target.value ? parseInt(e.target.value) : null)
+                onSelectedTariffIdChange(e.target.value ? parseInt(e.target.value, 10) : null)
               }
               className="input"
             >

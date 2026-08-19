@@ -32,7 +32,7 @@
     </noscript>
     <script>
       // Load Telegram Web App script only inside Telegram environment
-      (function () {
+      (() => {
         const isTelegram =
           window.TelegramWebviewProxy ||
           location.hash.indexOf('tgWebApp') !== -1 ||

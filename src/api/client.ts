@@ -1,4 +1,4 @@
-import axios, { AxiosError, InternalAxiosRequestConfig } from 'axios';
+import axios, { type AxiosError, type InternalAxiosRequestConfig } from 'axios';
 import { retrieveRawInitData } from '@telegram-apps/sdk-react';
 import {
   tokenStorage,
@@ -220,9 +220,9 @@ apiClient.interceptors.response.use(
     // request still rejects now. Axios cancellations are not outages.
     if (!error.response) {
       if (error.code !== 'ERR_CANCELED') {
-      void reportPossibleBackendDown();
-    }
-    return Promise.reject(error);
+        void reportPossibleBackendDown();
+      }
+      return Promise.reject(error);
     }
 
     if (isMaintenanceError(error)) {
