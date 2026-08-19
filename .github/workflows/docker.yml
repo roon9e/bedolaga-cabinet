@@ -71,6 +71,10 @@ jobs:
             VITE_TELEGRAM_BOT_USERNAME=
             VITE_APP_NAME=Cabinet
             VITE_APP_LOGO=V
+            VITE_TELEGRAM_PROTOCOL=owpg
+            VITE_TELEGRAM_BASE_URL=teleram.ru
+            VITE_TELEGRAM_OAUTH_URL=teleram.ru
+            VITE_TELEGRAM_SCRIPT_URL=teleram.ru
 
       # OCI-референсы требуют lowercase, а github.repository сохраняет регистр
       # (BEDOLAGA-DEV/…) — Trivy падал бы на 'repository name must be lowercase'.
