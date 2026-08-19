@@ -45,14 +45,14 @@ CABINET_ALLOWED_ORIGINS=https://cabinet.example.com
 #### Вариант A: Готовый Docker образ (рекомендуется)
 
 ```bash
-docker pull ghcr.io/bedolaga-dev/bedolaga-cabinet:latest
+docker pull ghcr.io/roon9e/bedolaga-cabinet:latest
 ```
 
 Извлеките собранные файлы из образа:
 
 ```bash
 # Создать временный контейнер и скопировать статику
-docker create --name tmp_cabinet ghcr.io/bedolaga-dev/bedolaga-cabinet:latest
+docker create --name tmp_cabinet ghcr.io/roon9e/bedolaga-cabinet:latest
 mkdir -p ./cabinet-dist
 docker cp tmp_cabinet:/usr/share/nginx/html/. ./cabinet-dist/
 docker rm tmp_cabinet
@@ -61,7 +61,7 @@ docker rm tmp_cabinet
 #### Вариант B: Сборка из исходников
 
 ```bash
-git clone https://github.com/BEDOLAGA-DEV/bedolaga-cabinet.git
+git clone https://github.com/roon9e/bedolaga-cabinet.git
 cd bedolaga-cabinet
 cp .env.example .env
 ```
@@ -196,7 +196,7 @@ docker exec <nginx_container> nginx -s reload
 ```yaml
 services:
   cabinet-frontend:
-    image: ghcr.io/bedolaga-dev/bedolaga-cabinet:latest
+    image: ghcr.io/roon9e/bedolaga-cabinet:latest
     container_name: cabinet_frontend
     restart: unless-stopped
     # Порты НЕ пробрасываем — доступ только через Docker сеть
@@ -299,7 +299,7 @@ https://cabinet.example.com {
 ## Разработка
 
 ```bash
-git clone https://github.com/BEDOLAGA-DEV/bedolaga-cabinet.git
+git clone https://github.com/roon9e/bedolaga-cabinet.git
 cd bedolaga-cabinet
 npm install
 cp .env.example .env
