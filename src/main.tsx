@@ -44,7 +44,8 @@ const objectCtor = Object as typeof Object & {
   hasOwn?: (obj: object, prop: PropertyKey) => boolean;
 };
 if (typeof objectCtor.hasOwn !== 'function') {
-  objectCtor.hasOwn = (obj: object, prop: PropertyKey): boolean => Object.hasOwn(obj, prop);
+  objectCtor.hasOwn = (obj: object, prop: PropertyKey): boolean =>
+    Object.prototype.hasOwnProperty.call(obj, prop);
 }
 
 // Only initialize Telegram SDK when running inside Telegram
