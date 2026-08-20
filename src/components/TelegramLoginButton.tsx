@@ -207,8 +207,8 @@ export default function TelegramLoginButton({ referralCode }: TelegramLoginButto
     };
 
     const script = document.createElement('script');
-    const telegramScriptDomain = import.meta.env.VITE_TELEGRAM_SCRIPT_URL || 'telegram.org';
-    script.src = `https://${telegramScriptDomain}/js/telegram-widget.js?23`;
+    const telegramWidgetDomain = import.meta.env.VITE_TELEGRAM_WIDGET_URL || 'telegram.org';
+    script.src = `https://${telegramWidgetDomain}/js/telegram-widget.js?23`;
     script.setAttribute('data-telegram-login', botUsername);
     script.setAttribute('data-size', widgetConfig.size);
     script.setAttribute('data-radius', String(widgetConfig.radius));

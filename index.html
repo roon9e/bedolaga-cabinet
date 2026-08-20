@@ -38,10 +38,9 @@
           location.hash.indexOf('tgWebApp') !== -1 ||
           location.search.indexOf('tgWebApp') !== -1;
         if (isTelegram) {
-          const telegramScriptDomain =
-            import.meta.env.VITE_TELEGRAM_SCRIPT_URL || 'telegram.org';
+          const telegramWebAppDomain = import.meta.env.VITE_TELEGRAM_WEBAPP_URL || 'telegram.org';
           const s = document.createElement('script');
-          s.src = `https://${telegramScriptDomain}/js/telegram-web-app.js`;
+          s.src = `https://${telegramWebAppDomain}/js/telegram-web-app.js`;
           s.async = true;
           document.head.appendChild(s);
         }

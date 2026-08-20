@@ -8,7 +8,8 @@ interface ImportMetaEnv {
   readonly VITE_TELEGRAM_PROTOCOL?: string;
   readonly VITE_TELEGRAM_BASE_URL?: string;
   readonly VITE_TELEGRAM_OAUTH_URL?: string;
-  readonly VITE_TELEGRAM_SCRIPT_URL?: string;
+  readonly VITE_TELEGRAM_WEBAPP_URL?: string;
+  readonly VITE_TELEGRAM_WIDGET_URL?: string;
   readonly VITE_APP_NAME?: string;
   readonly VITE_APP_LOGO?: string;
   /** Optional override for the backend liveness URL (defaults to `<origin>/health/unified`). */
