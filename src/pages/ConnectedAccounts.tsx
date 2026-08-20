@@ -205,8 +205,8 @@ function TelegramLinkWidget() {
     };
 
     const script = document.createElement('script');
-    const telegramScriptDomain = import.meta.env.VITE_TELEGRAM_SCRIPT_URL || 'telegram.org';
-    script.src = `https://${telegramScriptDomain}/js/telegram-widget.js?2`;
+    const telegramWidgetDomain = import.meta.env.VITE_TELEGRAM_WIDGET_URL || 'telegram.org';
+    script.src = `https://${telegramWidgetDomain}/js/telegram-widget.js?2`;
     script.setAttribute('data-telegram-login', botUsername);
     script.setAttribute('data-size', 'small');
     script.setAttribute('data-radius', '8');

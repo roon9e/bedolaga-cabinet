@@ -241,7 +241,8 @@ https://cabinet.example.com {
 | `VITE_TELEGRAM_PROTOCOL` | Протокол Telegram (tg://) | `tg` |
 | `VITE_TELEGRAM_BASE_URL` | Короткая ссылка Telegram (t.me/) | `t.me` |
 | `VITE_TELEGRAM_OAUTH_URL` | Ссылка на OIDC скрипт | `oauth.telegram.org` |
-| `VITE_TELEGRAM_SCRIPT_URL` | Ссылка на webApp, widget скрипт | `telegram.org` |
+| `VITE_TELEGRAM_WEBAPP_URL` | Ссылка на webApp скрипт | `telegram.org` |
+| `VITE_TELEGRAM_WIDGET_URL` | Ссылка на widget скрипт | `telegram.org` |
 | `VITE_APP_NAME` | Название в шапке и вкладке браузера | `Cabinet` |
 | `VITE_APP_LOGO` | Текст логотипа (1-2 символа) | `V` |
 
