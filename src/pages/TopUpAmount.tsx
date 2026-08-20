@@ -27,6 +27,9 @@ import {
   StarIcon,
 } from '@/components/icons';
 
+const telegramProtocol = import.meta.env.VITE_TELEGRAM_PROTOCOL || 'tg';
+const telegramBaseDomain = import.meta.env.VITE_TELEGRAM_BASE_URL || 't.me';
+
 const getMethodIcon = (methodId: string) => {
   const id = methodId.toLowerCase();
   if (id.includes('stars')) return <StarIcon />;
@@ -252,9 +255,9 @@ export default function TopUpAmount() {
         // URL в нестандартном регистре. Также покрываем tg:// scheme на всякий случай.
         const lowerUrl = redirectUrl.toLowerCase();
         const isTelegramDeepLink =
-          lowerUrl.startsWith('https://t.me/') ||
-          lowerUrl.startsWith('http://t.me/') ||
-          lowerUrl.startsWith('tg://');
+          lowerUrl.startsWith(`https://${telegramBaseDomain}/`) ||
+          lowerUrl.startsWith(`http://${telegramBaseDomain}/`) ||
+          lowerUrl.startsWith(`${telegramProtocol}://`);
         if (method?.open_url_direct && !isTelegramDeepLink) {
           // In the Telegram WebView, same-container navigation to the provider page breaks
           // when it hands off to a bank app via a custom scheme (SBP) — Android shows
@@ -351,7 +354,7 @@ export default function TopUpAmount() {
       // display-currency rounding step below it, so typing the advertised (rounded)
       // minimum isn't rejected by FX rounding.
       const decimals = targetCurrency === 'IRR' ? 0 : 2;
-      const roundingStep = convertToRub(Math.pow(10, -decimals));
+      const roundingStep = convertToRub(10 ** -decimals);
       if (canonicalRubles < minRubles && canonicalRubles >= minRubles - roundingStep) {
         canonicalRubles = minRubles;
       }
@@ -389,7 +392,7 @@ export default function TopUpAmount() {
 
   const handleOpenPayment = () => {
     if (!paymentUrl) return;
-    if (paymentUrl.includes('t.me/')) {
+    if (paymentUrl.includes(`${telegramBaseDomain}/`)) {
       openTelegramLink(paymentUrl);
     } else {
       openLink(paymentUrl);

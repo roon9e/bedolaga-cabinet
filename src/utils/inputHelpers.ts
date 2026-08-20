@@ -1,4 +1,4 @@
-import { ChangeEvent } from 'react';
+import type { ChangeEvent } from 'react';
 
 /**
  * Creates an onChange handler for number inputs that allows empty values while typing.

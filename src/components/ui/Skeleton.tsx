@@ -1,4 +1,4 @@
-import { type CSSProperties } from 'react';
+import type { CSSProperties } from 'react';
 
 export type SkeletonVariant = 'text' | 'avatar' | 'card' | 'list' | 'bento';
 
